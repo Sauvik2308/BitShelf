@@ -154,7 +154,8 @@ export default function ColorPicker() {
 
 
     return (
-        <div className="bg-[#4a2e1c] min-h-screen flex flex-col items-center justify-center p-4 font-sans">
+        <div className="bg-[hsla(23,83%,28%,0)] min-h-screen flex flex-col items-center justify-center p-4 font-sans">
+        {/* <div className="bg-[#5D2F0A] min-h-screen flex flex-col items-center justify-center p-4 font-sans"> */}
             <div className="w-full max-w-4xl">
                 <h1 className="text-3xl text-white text-center mb-4">Color Picker & Converter</h1>
                 <p className="text-lg text-gray-300 text-center mb-8">Select a color to see its HEX, RGB, and HSL values.</p>
@@ -201,7 +202,7 @@ export default function ColorPicker() {
                                     <input type="number" name="g" value={rgb.g} onChange={handleRgbChange} className="w-full bg-[#2e1d12] p-3 text-white rounded-lg focus:outline-none text-center" min="0" max="255" />
                                     <input type="number" name="b" value={rgb.b} onChange={handleRgbChange} className="w-full bg-[#2e1d12] p-3 text-white rounded-lg focus:outline-none text-center" min="0" max="255" />
                                 </div>
-                                <button onClick={() => copyToClipboard(`rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`)} className="w-full mt-2 bg-[#8a4a22] hover:bg-[#a56a42] text-white font-bold py-2 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                <button onClick={() => copyToClipboard(`rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`)} className="w-full mt-2 bg-[#7d3a11] hover:bg-[#a56a42] text-white font-bold py-2 px-4 rounded-lg transition-colors flex items-center justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" /><path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2H6zM8 7a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1zm-1 4a1 1 0 100 2h4a1 1 0 100-2H7z" /></svg>
                                     Copy RGB
                                 </button>
@@ -215,7 +216,7 @@ export default function ColorPicker() {
                                     <input type="number" name="s" value={hsl.s} onChange={handleHslChange} className="w-full bg-[#2e1d12] p-3 text-white rounded-lg focus:outline-none text-center" min="0" max="100" />
                                     <input type="number" name="l" value={hsl.l} onChange={handleHslChange} className="w-full bg-[#2e1d12] p-3 text-white rounded-lg focus:outline-none text-center" min="0" max="100" />
                                 </div>
-                                <button onClick={() => copyToClipboard(`hsl(${hsl.h}, ${hsl.s}%, ${hsl.l}%)`)} className="w-full mt-2 bg-[#8a4a22] hover:bg-[#a56a42] text-white font-bold py-2 px-4 rounded-lg transition-colors flex items-center justify-center">
+                                <button onClick={() => copyToClipboard(`hsl(${hsl.h}, ${hsl.s}%, ${hsl.l}%)`)} className="w-full mt-2 bg-[#7d3a11] hover:bg-[#a56a42] text-white font-bold py-2 px-4 rounded-lg transition-colors flex items-center justify-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor"><path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" /><path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2H6zM8 7a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1zm-1 4a1 1 0 100 2h4a1 1 0 100-2H7z" /></svg>
                                     Copy HSL
                                 </button>

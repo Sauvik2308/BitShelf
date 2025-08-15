@@ -26,6 +26,18 @@ const Home = () => {
       description: 'Write and preview Markdown with a live editor and real-time rendering.',
       path: '/markdown-editor',
       icon: '📄'
+    },
+        {
+      title: 'Markdown Editor',
+      description: 'Write and preview Markdown with a live editor and real-time rendering.',
+      path: '/markdown-editor',
+      icon: '📄'
+    },
+        {
+      title: 'Markdown Editor',
+      description: 'Write and preview Markdown with a live editor and real-time rendering.',
+      path: '/markdown-editor',
+      icon: '📄'
     }
   ];
 
@@ -211,11 +223,11 @@ const Home = () => {
           font-size: 4rem;
           font-weight: 900;
           color: #00ff00;
-          text-shadow: 
-            0 0 5px #00ff00,
-            0 0 10px #00ff00,
-            0 0 15px #00ff00,
-            0 0 20px #00ff00;
+          // text-shadow: 
+          //   0 0 5px #00ff00,
+          //   0 0 10px #00ff00,
+          //   0 0 15px #00ff00,
+          //   0 0 20px #00ff00;
           margin: 0;
           position: relative;
         }

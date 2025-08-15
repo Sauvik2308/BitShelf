@@ -11,7 +11,7 @@ const Home = () => {
     },
     {
       title: 'Base64 Encoder/Decoder',
-      description: 'Encode and decode Base64 strings quickly and efficiently for data processing.',
+      description: 'Encode and decode Base64 strings quickly and efficiently for data analysis and processing.',
       path: '/base64-tool',
       icon: '🔐'
     },
@@ -26,6 +26,18 @@ const Home = () => {
       description: 'Write and preview Markdown with a live editor and real-time rendering.',
       path: '/markdown-editor',
       icon: '📄'
+    },
+    {
+      title: 'Color Picker',
+      description: 'Write and preview Markdown with a live editor and real-time rendering.',
+      path: '/color-picker',
+      icon: '🎨'    
+    },
+    {
+      title: 'QR Code Generator',
+      description: 'Write and preview Markdown with a live editor and real-time rendering.',
+      path: '/qr-generator',
+      icon: '🏾'    
     }
   ];
 

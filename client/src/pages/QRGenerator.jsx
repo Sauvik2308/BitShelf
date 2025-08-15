@@ -66,7 +66,7 @@ export default function QRGenerator() {
     };
 
     return (
-        <div className="bg-[#4a2e1c] min-h-screen flex flex-col items-center justify-center p-4 font-sans">
+        <div className="bg-[hsla(23,83%,28%,0)] min-h-screen flex flex-col items-center justify-center p-4 font-sans">
             <div className="w-full max-w-4xl">
                 <h1 className="text-3xl text-white text-center mb-4">QR Code Generator</h1>
                 <p className="text-lg text-gray-300 text-center mb-8">Enter a URL or text to create a QR code.</p>

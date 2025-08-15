@@ -257,7 +257,7 @@ Happy writing! ✨`);
       </div>
 
       <style jsx>{`
-        .container h1, .container h2, .container h3 {
+        .container h2, .container h3 {
           color: var(--primary-brown);
           margin: 1rem 0 0.5rem 0;
         }

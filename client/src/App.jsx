@@ -8,8 +8,9 @@ import Base64Tool from './pages/Base64Tool';
 import LoremGenerator from './pages/LoremGenerator';
 import MarkdownEditor from './pages/MarkdownEditor';
 import ColorPicker from './pages/ColorPicker';
-import './App.css';
 import QRGenerator from './pages/QRGenerator';
+// import Home from './pages/HomeAlt';
+import './App.css';
 
 function App() {
   return (
@@ -23,8 +24,8 @@ function App() {
             <Route path="/base64-tool" element={<Base64Tool />} />
             <Route path="/lorem-generator" element={<LoremGenerator />} />
             <Route path="/markdown-editor" element={<MarkdownEditor />} />
-            <Route path="/cp" element={<ColorPicker />} />
-            <Route path="/qr" element={<QRGenerator />} />
+            <Route path="/color-picker" element={<ColorPicker />} />
+            <Route path="/qr-generator" element={<QRGenerator />} />
           </Routes>
         </main>
         <Footer />

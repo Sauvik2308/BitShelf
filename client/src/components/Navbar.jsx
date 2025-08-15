@@ -1,6 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo1 from "../assets/logo1.png"
+import logo2 from "../assets/logo2.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +44,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-brand">
-          <span className="brand-icon">🛠️</span>
+          {/* <span className="brand-icon">🛠️</span> */}
+          <span className="brand-icon"><img src={logo2} alt="Logo" className='navbar-logo'></img></span>
           BitShelf
         </Link>
         

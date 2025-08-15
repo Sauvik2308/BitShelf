@@ -257,3 +257,9 @@
     justify-content: space-between;
   }
 }
+
+.navbar-logo {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}

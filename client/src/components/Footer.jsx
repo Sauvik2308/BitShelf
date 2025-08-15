@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import logo2 from "../assets/logo2.png"
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <h3 className="footer-brand">
-              <span className="brand-icon">🛠️</span>
+              <span className="brand-icon"><img src={logo2} alt="logo" className='footer-logo'></img></span>
               BitShelf
             </h3>
             <p className="footer-description">

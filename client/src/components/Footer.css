@@ -78,6 +78,12 @@
   font-size: 0.9rem;
 }
 
+.footer-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;  
+}
+
 @media screen and (max-width: 768px) {
   .footer-container {
     padding: 2rem 1rem 1rem;
