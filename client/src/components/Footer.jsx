@@ -25,6 +25,8 @@ const Footer = () => {
               <li><a href="/base64-tool">Base64 Encoder/Decoder</a></li>
               <li><a href="/lorem-generator">Lorem Ipsum Generator</a></li>
               <li><a href="/markdown-editor">Markdown Editor</a></li>
+              <li><a href="/color-picker">Color Picker</a></li>
+              <li><a href="/qr-generator">QR Code Generator</a></li>
             </ul>
           </div>
 

@@ -92,6 +92,18 @@ const Navbar = () => {
                 onClick={closeMobileMenu}
               >
                 Markdown Editor
+              </Link><Link 
+                to="/color-picker" 
+                className="dropdown-link" 
+                onClick={closeMobileMenu}
+              >
+                Color Picker
+              </Link><Link 
+                to="/qr-generator" 
+                className="dropdown-link" 
+                onClick={closeMobileMenu}
+              >
+                QR Code Generator
               </Link>
             </div>
           </div>

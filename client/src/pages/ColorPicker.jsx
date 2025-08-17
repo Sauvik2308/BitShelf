@@ -157,8 +157,8 @@ export default function ColorPicker() {
         <div className="bg-[hsla(23,83%,28%,0)] min-h-screen flex flex-col items-center justify-center p-4 font-sans">
         {/* <div className="bg-[#5D2F0A] min-h-screen flex flex-col items-center justify-center p-4 font-sans"> */}
             <div className="w-full max-w-4xl">
-                <h1 className="text-3xl text-white text-center mb-4">Color Picker & Converter</h1>
-                <p className="text-lg text-gray-300 text-center mb-8">Select a color to see its HEX, RGB, and HSL values.</p>
+                <h1 className="text-3xl text-white text-center mb-4 page-title" style={{fontFamily: "Source Code Pro"}}>Color Picker & Converter</h1>
+                <p className="text-lg text-gray-300 text-center mb-8 page-subtitle">Select a color to see its HEX, RGB, and HSL values.</p>
 
                 <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-white/20">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
