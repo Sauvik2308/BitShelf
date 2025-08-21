@@ -59,7 +59,7 @@ Instructions on how to get a local copy up and running.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo].git
+    git clone [https://github.com/](https://github.com/)Sauvik2308/BitShelf.git
     ```
 2.  **Navigate to the project directory:**
     ```sh
