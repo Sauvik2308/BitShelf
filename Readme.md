@@ -24,12 +24,12 @@ A one-stop solution to all you development essentials. Combines various essentia
 
 ### ✨ Features
 
-- **✅ JSON Formatter:** A short description of the first key feature.
-- **✅ Base64 Encoder/Decoder:** A short description of the second key feature.
-- **✅ Lorem Ipsum Generator:** A short description of the third key feature.
-- **✅ Markdown Editor:** A short description of the third key feature.
-- **✅ Color Picker:** A short description of the third key feature.
-- **✅ QR Code Generator:** A short description of the third key feature.
+- **✅ JSON Formatter:** Format, validate and beautify JSON data with syntax highlighting and error detection.
+- **✅ Base64 Encoder/Decoder:** Encode and decode Base64 strings quickly and efficiently.
+- **✅ Lorem Ipsum Generator:** Generate placeholder texts in various lengths for your needs.
+- **✅ Markdown Editor:** Write and process Markdown with a live editor and real-time rendering.
+- **✅ Color Picker:** Find and convert between different formats like HEX and RGB.
+- **✅ QR Code Generator:** A simple tool to generate a QR code from any block of text or an URL.
 
 ---
 

@@ -36,7 +36,7 @@ const Home = () => {
     },
     {
       title: 'QR Code Generator',
-      description: 'A simple tool to generate a QR code from any block of text or a URL.',
+      description: 'A simple tool to generate a QR code from any block of text or an URL.',
       path: '/qr-generator',
       icon: '🏾'    
     }
